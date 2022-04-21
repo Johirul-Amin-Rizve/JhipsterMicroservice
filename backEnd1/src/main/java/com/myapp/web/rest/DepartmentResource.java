@@ -6,9 +6,12 @@ import com.myapp.service.DepartmentService;
 import com.myapp.web.rest.errors.BadRequestAlertException;
 import java.net.URI;
 import java.net.URISyntaxException;
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
+
+import io.micrometer.core.annotation.Timed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
@@ -179,10 +182,13 @@ public class DepartmentResource {
             .build();
     }
 
-    @GetMapping("/getdept")
-    public ResponseEntity<Department> getdept() {
-        Department department = new Department();
-        department.setName("test");
-        return ResponseEntity.ok().body(department);
+    @GetMapping("/another")
+    public List<AnotherDTO> getAll() {
+        log.debug("REST request to get all");
+        AnotherDTO anotherDTO = new AnotherDTO();
+        anotherDTO.setTest("test");
+        List<AnotherDTO> anotherDTOS = new ArrayList<>();
+        anotherDTOS.add(anotherDTO);
+        return anotherDTOS;
     }
 }
