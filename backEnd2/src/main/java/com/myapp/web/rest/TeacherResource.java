@@ -9,8 +9,11 @@ import java.net.URISyntaxException;
 import java.util.List;
 import java.util.Objects;
 import java.util.Optional;
+
+import io.micrometer.core.annotation.Timed;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
@@ -175,5 +178,16 @@ public class TeacherResource {
             .noContent()
             .headers(HeaderUtil.createEntityDeletionAlert(applicationName, true, ENTITY_NAME, id.toString()))
             .build();
+    }
+
+    @Autowired
+    private AnotherClient anotherClient;
+
+    @GetMapping("/another")
+    @Timed
+    public List<AnotherDTO> getAll() {
+        log.debug("REST request to get all");
+        List<AnotherDTO> anotherDTOS = anotherClient.getAll();
+        return anotherDTOS;
     }
 }
