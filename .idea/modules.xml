@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/JhipsterMicroservice.iml" filepath="$PROJECT_DIR$/.idea/JhipsterMicroservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backEnd1/back-end-1.iml" filepath="$PROJECT_DIR$/backEnd1/back-end-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/backEnd2/back-end-2.iml" filepath="$PROJECT_DIR$/backEnd2/back-end-2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/frontEnd1/front-end-1.iml" filepath="$PROJECT_DIR$/frontEnd1/front-end-1.iml" />
+    </modules>
+  </component>
+</project>
