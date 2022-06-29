@@ -3,9 +3,12 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/JhipsterMicroservice.iml" filepath="$PROJECT_DIR$/.idea/JhipsterMicroservice.iml" />
-      <module fileurl="file://$PROJECT_DIR$/backEnd1/back-end-1.iml" filepath="$PROJECT_DIR$/backEnd1/back-end-1.iml" />
-      <module fileurl="file://$PROJECT_DIR$/backEnd2/back-end-2.iml" filepath="$PROJECT_DIR$/backEnd2/back-end-2.iml" />
-      <module fileurl="file://$PROJECT_DIR$/frontEnd1/front-end-1.iml" filepath="$PROJECT_DIR$/frontEnd1/front-end-1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dataProcessor/data-processor.iml" filepath="$PROJECT_DIR$/dataProcessor/data-processor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/orderPlacer/order-placer.iml" filepath="$PROJECT_DIR$/orderPlacer/order-placer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/posIntegration/pos-integration.iml" filepath="$PROJECT_DIR$/posIntegration/pos-integration.iml" />
+      <module fileurl="file://$PROJECT_DIR$/qrEngine/qr-engine.iml" filepath="$PROJECT_DIR$/qrEngine/qr-engine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reporting/reporting.iml" filepath="$PROJECT_DIR$/reporting/reporting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/router/router.iml" filepath="$PROJECT_DIR$/router/router.iml" />
     </modules>
   </component>
 </project>

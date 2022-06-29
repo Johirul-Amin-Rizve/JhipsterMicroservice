@@ -1,0 +1,58 @@
+{
+  "applications": ["dataProcessor"],
+  "changelogDate": "20220628134808",
+  "clientRootFolder": "dataProcessor",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "medicine_sold_per_demand",
+  "fields": [
+    {
+      "fieldName": "medicineId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "medicineName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "medicineOrderQuantity",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "unitPrice",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "discountedPrice",
+      "fieldType": "Double"
+    },
+    {
+      "fieldName": "issuedQuantity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "returnQuantity",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "sellingDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "dataProcessor",
+  "name": "MedicineSoldPerDemand",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "demand",
+      "otherEntityRelationshipName": "medicineSoldPerDemand",
+      "relationshipName": "demand",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,31 @@
+{
+  "applications": ["orderPlacer"],
+  "changelogDate": "20220628134808",
+  "clientRootFolder": "orderPlacer",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "deman_info",
+  "fields": [
+    {
+      "fieldName": "demandId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "demandStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "invoiceStatus",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "orderPlacer",
+  "name": "DemanInfo",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

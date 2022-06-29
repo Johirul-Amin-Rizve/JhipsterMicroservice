@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="RunManager" selected="Spring Boot.DataProcessorApp">
+    <configuration name="DataProcessorApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="data-processor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ailaaj.paf.DataProcessorApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="OrderPlacerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="order-placer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ailaaj.paf.OrderPlacerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PosIntegrationApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="pos-integration" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ailaaj.paf.PosIntegrationApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QrEngineApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="qr-engine" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ailaaj.paf.QrEngineApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReportingApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="reporting" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ailaaj.paf.ReportingApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RouterApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="router" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ailaaj.paf.RouterApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+</project>

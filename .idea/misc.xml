@@ -3,9 +3,12 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/backEnd1/pom.xml" />
-        <option value="$PROJECT_DIR$/backEnd2/pom.xml" />
-        <option value="$PROJECT_DIR$/frontEnd1/pom.xml" />
+        <option value="$PROJECT_DIR$/router/pom.xml" />
+        <option value="$PROJECT_DIR$/qrEngine/pom.xml" />
+        <option value="$PROJECT_DIR$/reporting/pom.xml" />
+        <option value="$PROJECT_DIR$/orderPlacer/pom.xml" />
+        <option value="$PROJECT_DIR$/dataProcessor/pom.xml" />
+        <option value="$PROJECT_DIR$/posIntegration/pom.xml" />
       </list>
     </option>
   </component>

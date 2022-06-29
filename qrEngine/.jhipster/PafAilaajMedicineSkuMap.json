@@ -1,0 +1,43 @@
+{
+  "applications": ["qrEngine"],
+  "changelogDate": "20220628125028",
+  "clientRootFolder": "qrEngine",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "paf_ailaaj_medicine_sku_map",
+  "fields": [
+    {
+      "fieldName": "ailaajMedicineId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "pafMedicineId",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "pafMedicineName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "medicineName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "cFactorbrand",
+      "fieldType": "Long"
+    },
+    {
+      "fieldName": "supplier",
+      "fieldType": "String"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "qrEngine",
+  "name": "PafAilaajMedicineSkuMap",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [],
+  "service": "serviceImpl"
+}

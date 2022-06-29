@@ -1,0 +1,50 @@
+{
+  "applications": ["dataProcessor"],
+  "changelogDate": "20220628135008",
+  "clientRootFolder": "dataProcessor",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "patient",
+  "fields": [
+    {
+      "fieldName": "mr",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "mrPlusName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "ward",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "room",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "bed",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "admissionDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "dataProcessor",
+  "name": "Patient",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "demand",
+      "otherEntityRelationshipName": "patient",
+      "relationshipName": "demand",
+      "relationshipType": "one-to-many"
+    }
+  ],
+  "service": "serviceImpl"
+}

@@ -1,0 +1,52 @@
+{
+  "applications": ["dataProcessor"],
+  "changelogDate": "20220628134908",
+  "clientRootFolder": "dataProcessor",
+  "databaseType": "sql",
+  "dto": "no",
+  "embedded": false,
+  "entityTableName": "demand",
+  "fields": [
+    {
+      "fieldName": "orderId",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "orderStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "invoiceStatus",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "hospitalName",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "createdDate",
+      "fieldType": "Instant"
+    }
+  ],
+  "fluentMethods": true,
+  "jpaMetamodelFiltering": false,
+  "microserviceName": "dataProcessor",
+  "name": "Demand",
+  "pagination": "pagination",
+  "readOnly": false,
+  "relationships": [
+    {
+      "otherEntityName": "medicineSoldPerDemand",
+      "otherEntityRelationshipName": "demand",
+      "relationshipName": "medicineSoldPerDemand",
+      "relationshipType": "one-to-many"
+    },
+    {
+      "otherEntityName": "patient",
+      "otherEntityRelationshipName": "demand",
+      "relationshipName": "patient",
+      "relationshipType": "many-to-one"
+    }
+  ],
+  "service": "serviceImpl"
+}
